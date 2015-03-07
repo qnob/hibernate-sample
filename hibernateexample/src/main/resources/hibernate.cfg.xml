@@ -4,15 +4,8 @@
 
 <hibernate-configuration>
    <session-factory>
-   <!--  property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
-   <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-   <property name="hibernate.connection.url">jdbc:mysql://localhost/company</property>
-   <property name="hibernate.connection.username">root</property>
-   <property name="hibernate.connection.password">root</property-->
-
    <property name="dialect">org.hibernate.dialect.HSQLDialect</property>
    <property name="connection.driver_class">org.hsqldb.jdbcDriver</property>
-   <!--  property name="connection.url">jdbc:hsqldb:mem:test</property-->
    <property name="connection.url">jdbc:hsqldb:hsql://localhost/xdb</property>
    <property name="connection.username">sa</property>
    <property name="connection.password"></property>
