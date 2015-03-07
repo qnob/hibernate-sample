@@ -9,15 +9,12 @@
    <property name="connection.url">jdbc:hsqldb:hsql://localhost/xdb</property>
    <property name="connection.username">sa</property>
    <property name="connection.password"></property>
-
-
-
    <property name="hibernate.hbm2ddl.auto">update</property>
    <property name="show_sql">false</property>
- 
- 
- 
-   <mapping class="com.javacodegeeks.snippets.enterprise.hibernate.Employee"/>
+   <mapping class="ch.qnob.sample.hibernate.onetable.Employee"/>
+   <mapping class="ch.qnob.sample.hibernate.inheritance.Vehicle"/>
+   <mapping class="ch.qnob.sample.hibernate.inheritance.Car"/>
+   <mapping class="ch.qnob.sample.hibernate.inheritance.Truck"/>
    
    
    
