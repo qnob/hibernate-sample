@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.javacodegeeks.snippets.enterprise.hibernate;
+package ch.qnob.sample.hibernate.onetable;
 
 import static org.junit.Assert.*;
 
@@ -13,6 +13,8 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.junit.Test;
+
+import ch.qnob.sample.hibernate.onetable.Employee;
 
 /**
  * @author kanoodle

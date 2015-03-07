@@ -1,4 +1,4 @@
-package com.javacodegeeks.snippets.enterprise.hibernate;
+package ch.qnob.sample.hibernate.onetable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
