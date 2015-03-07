@@ -27,6 +27,10 @@ public abstract class Vehicle {
 
 	@Column(name = "MODEL")
 	private String model;
+	
+	@Column(name = "DISCRIMINATOR", nullable=false, insertable=false, updatable=false)
+	private String discriminator;
+	
 
 	public Long getVehicleId() {
 		return vehicleId;
@@ -50,6 +54,10 @@ public abstract class Vehicle {
 
 	public void setModel(String model) {
 		this.model = model;
+	}
+
+	public String getDiscriminator() {
+		return discriminator;
 	}
 
 	
